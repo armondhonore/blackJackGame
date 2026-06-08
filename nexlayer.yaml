@@ -1,0 +1,9 @@
+application:
+  name: pure-crane-blackjackgame
+  pods:
+    - name: app
+      image: "# filled by pipeline"
+      path: /
+      servicePorts:
+        - 80
+      vars: {}
